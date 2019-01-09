@@ -1,0 +1,41 @@
+.Result{
+	/*text-align: center center;*/
+
+	padding: 2% 5%;
+	border: 2px solid rgb(122,120,187);
+	border-radius: 40px 40px 0px 0px;
+  	display: flex;
+  	color: rgba(255,255,255,0.8);
+}
+
+.Result-container{
+	margin: 20px 50px
+}
+
+.Result-score{
+	width: 100px;
+    height: 100px;
+	font-size: 30px;
+	text-align: center;
+	line-height: 100px;
+	border: 5px solid rgb(122,120,187);
+    background: red;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+}
+
+#home{
+	background: rgba(0,255,0,0.8);
+}
+
+#away{
+	background: rgba(255,0,0,0.8);
+}
+
+.Hero-icon {
+	border: 4px solid rgb(122,120,187);
+	border-radius: 25px 25px 25px 25px;
+	height: 15vh;
+	margin-top: 15px;
+}
